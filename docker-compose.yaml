@@ -1,0 +1,9 @@
+version: "3"
+
+services: 
+    device:
+        build: .
+        ports: 
+            - 127.0.0.1:3005:3002
+        environment: 
+            - TEST_ENV=lozita
